@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="81" AutorName="Fabian Schöpflin" AutorEmail="fschoepflin@t-online.de"/>
+</Info>
+<Landschaft>
+<Verknuepfte Flags="16" BoundingR="4" SichtbarBis="250" Vorlade="1" LODbit="4">
+<Datei Dateiname="Abspannmast.lod1.ls3"/>
+<p/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="4" SichtbarAb="250" SichtbarBis="750" Vorlade="1" LODbit="2">
+<Datei Dateiname="Abspannmast.lod2.ls3"/>
+<p/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="4" SichtbarAb="750" SichtbarBis="1000" Vorlade="1" LODbit="1">
+<Datei Dateiname="Abspannmast.lod3.ls3"/>
+<p/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Ankerpunkt>
+<p/>
+<phi/>
+</Ankerpunkt>
+<Ankerpunkt AnkerKat="1" Beschreibung="Ausleger">
+<p X="-0.1554" Z="6.5"/>
+<phi/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Maste\Abspannmast\Einzelausleger" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Maste\Abspannmast\Doppelausleger" NurInfo="1"/>
+</Ankerpunkt>
+</Landschaft>
+</Zusi>

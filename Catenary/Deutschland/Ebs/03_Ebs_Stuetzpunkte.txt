@@ -1,0 +1,192 @@
+﻿/* Kurzanleitung für Ebs-Oberleitungen: Oberleitungs-Einzelstützpunkte, Einzelstützpunkte mit niedriger Systemhöhe, Zwischenstützpunkte der Nachspannung */ Stand: 14.11.2019
+Ergänzende Hinweise: http://zusiwiki.echoray.de/wiki/Errichtung_von_Ebs-Oberleitungsanlagen#Oberleitungs-Einzelstuetzpunkte
+
+Hinweis: Diese Textdatei ist für die Ansicht in Notepad++ optimiert.
+
+Ausgabe: 14.11.2019
+
+	Kürzel									:		Bezeichnung/Verwendung																		- Anmerkungen
+
+= Oberleitungs-Einzelstützpunkte =
+
+* Aluminiumausleger
+
+	Re100_									: 		Regeloberleitung zugelassen bis 100 km/h
+	Re200_									:		Regeloberleitung zugelassen bis 200 km/h
+	Re250_									:		Regeloberleitung zugelassen bis 280 km/h
+	Re330_									:		Regeloberleitung zugelassen bis 330 km/h
+
+* Re 100: Werkstoff
+
+	_Alu_									:		Stützpunkt mit Aluminiumausleger
+
+* Isolatorbauform
+
+	_Keramik_								:		Stabisolatoren
+	_Glas_									:		Mehrgliedisolatoren
+
+  Verbundisolatoren
+
+	_Rodurflex_								:		Rodurflex-Isolatoren
+
+* MVK-Maß
+
+	_AmBC_									:		Abstand zwischen Mastvorderkante und Gleismitte auf Höhe der Schienenoberkante in a,bc m
+
+* Bauart
+
+	_StBw_									:		Stützpunkt unter Bauwerk
+	Kürzel entfällt							:		Stützpunkt mit Rohrschwenkausleger
+
+* Tragseilführung
+
+	_Gerade_								:		Stützpunkt in der Geraden 																	- Tragseilführung über Gleismitte
+	_Bogen_									:		Stützpunkt im Bogen 																		- Tragseilführung lotrecht über Fahdraht
+	Kürzel entfällt							:		Stützpunkt in der Geraden/im Bogen 															- Tragseilführung lotrecht über Fahdraht
+
+* Einbauseite des Seitenhalters
+
+	_angelenkt_								:		angelenkter Stützpunkt 																		- Seitenhalter in mastzugewandte Richtung eingebaut
+	_umgelenkt_								:		umgelenkter Stützpunkt 																		- Seitenhalter in mastabgewandte Richtung eingebaut
+
+* Durchmesser des Auslegerrohrs
+
+  Re 100, Re 200 mit MVK < 3,80 m
+
+	_A70_									:		Auslegerrohr mit 70 mm Durchmesser
+	Kürzel entfällt							:		Auslegerrohr mit 55 mm Durchmesser
+
+  Re 100, Re 200 mit MVK ≥ 3,80 m
+
+	_A80_									:		Auslegerrohr mit 80 mm Durchmesser
+	Kürzel entfällt							:		Auslegerrohr mit 70 mm Durchmesser
+
+  Re 250, Re 330 angelenkt mit MVK ≤ 3,40 m
+
+	_A70_									:		Auslegerrohr mit 70 mm Durchmesser
+	Kürzel entfällt							:		Auslegerrohr mit 55 mm Durchmesser
+
+  Re 250, Re 330 angelenkt mit 3,40 m < MVK ≤ 4,40 m; Re 250, Re 330 umgelenkt mit MVK ≤ 4,40 m
+
+	Kürzel entfällt							:		Auslegerrohr mit 70 mm Durchmesser
+
+  Re 250, Re 330 mit MVK > 4,40 m
+
+	Kürzel entfällt							:		Auslegerrohr mit 80 mm Durchmesser
+	
+  hochgezogene Ausleger Re 100, Re 200
+	
+	Kürzel entfällt							:		Auslegerrohr mit 70 mm Durchmesser
+
+* Durchmesser des Spitzenrohrs
+
+  Re 100, Re 200 mit MVK < 3,80 m
+
+	_Sp55_									:		Spitzenrohr mit 55 mm Durchmesser
+	_Sp42_									:		Spitzenrohr mit 42 mm Durchmesser
+	Kürzel entfällt							:		Spitzenrohr mit 26 mm Durchmesser
+
+  Re 100, Re 200 mit MVK ≥ 3,80 m, Re 250
+
+	_Sp55_									:		Spitzenrohr mit 55 mm Durchmesser
+	Kürzel entfällt							:		Spitzenrohr mit 42 mm Durchmesser
+
+  hochgezogene Ausleger Re 100, Re 200 mit MVK < 3,80 m, Re 250
+	
+	_Sp55_									:		Spitzenrohr mit 55 mm Durchmesser
+	Kürzel entfällt							:		Spitzenrohr mit 42 mm Durchmesser
+	
+  hochgezogene Ausleger Re 100, Re 200 mit MVK ≥ 3,80 m
+  
+    Kürzel entfällt							:		Spitzenrohr mit 55 mm Durchmesser
+
+* Durchmesser des Stützrohrs
+
+  Re 100, Re 200
+
+	_Sr55_									:		Stützrohr mit 55 mm Durchmesser
+	Kürzel entfällt							:		Stützrohr mit 42 mm Durchmesser
+
+  Re 250, Re 330 angelenkt
+
+	Kürzel entfällt							:		Stützrohr mit 42 mm Durchmesser
+
+  Re 250, Re 330 umgelenkt
+
+	Kürzel entfällt							:		Stützrohr mit 55 mm Durchmesser
+
+  hochgezogene Ausleger
+	
+	_Sr55_									:		Stützrohr mit 55 mm Durchmesser
+	Kürzel entfällt							:		Stützrohr mit 42 mm Durchmesser
+
+* versetzte Isolation
+
+	_vIa_									:		versetzte Isolation Bauart a 																- je 1 Isolator im Spitzen-, Ausleger-, Stützrohr
+	_vIb_									:		versetzte Isolation Bauart b																- je 1 Isolator im Spitzen-, Auslegerrohr
+	_vIc_									:		versetzte Isolation Bauart c																- je 1 Isolator im Stützrohr
+	Kürzel entfällt							:		mastnahe Isolation
+
+* Windsicherung
+
+  entfällt bei: Aluminiumausleger mit r < 1200 m
+
+	_oW_									:		ohne Windsicherung
+	Kürzel entfällt 						:		mit Windsicherung
+
+* Fahrdraht-Seitenhalter
+
+	_aS_									:		abgewinkelter Seitenhalter
+	_gS_									:		gebogener Seitenhalter
+	Kürzel entfällt 						: 		Fahrdraht-Seitenhalter (Leichtbau)
+
+* Diagonalrohr
+
+  Re 100, Re 200
+
+	_Dr_									:		mit Diagonalrohr
+	Kürzel entfällt							:		ohne Diagonalrohr
+
+  Re 250, Re 330
+
+	_oDr_									:		ohne Diagonalrohr
+	Kürzel entfällt							:		mit Diagonalrohr
+
+  hochgezogener Ausleger Re 100, Re 200 mit MVK ≥ 3,80 m
+  
+    Kürzel entfällt							:		mit Diagonalrohr
+
+* Stützrohrhänger/Hakenschelle
+
+  Re 100, Re 250, Re 330
+
+	_oRh_									:		ohne Stützrohrhänger																	- Stützrohr am Y-Beiseil aufgehängt
+	Kürzel entfällt 						:		mit Stützrohrhänger																		- Stützrohr am Auslegerrohr aufgehängt
+
+  Re 200
+
+	_oH_									:		ohne Hakenschelle																		- Stützrohr nicht aufgehängt, Länge des Fahrdraht-Seitenhalters: 875 mm
+	_Rh_									:		mit Stützrohrhänger																		- Stützrohr am Auslegerrohr aufgehängt, Länge des Fahrdraht-Seitenhalters: 875 mm
+	Kürzel entfällt 						:		ohne Stützrohrhänger																	- Stützrohr am Y-Beiseil aufgehängt, Länge des Fahrdraht-Seitenhalters: 650 mm
+
+* Abmessungen
+
+	_SbaABXY								:		Sba-Maß in abxy mm																		- nur bei Abweichung von Sba-Regelmaß
+	Kürzel entfällt							:		Sba-Regelmaß																			- siehe Auswahltabelle für Befestigungsteile
+
+== Einzelstützpunkte mit niedriger Systemhöhe / Stützpunkte unter Bauwerken ==
+
+* Befestigungsteile
+
+	_D(A)BC_								:		Befestigung an Hängesäule mit (a)bc mm Durchmesser
+	Kürzel entfällt							:		Befestigung an Bauwerkskante/am Oberleitungsmast
+
+* Abmessungen
+
+	_SHabc_									:		Systemhöhe in A,BC m
+	_BHxy_									:		Bauhöhe in X,Y m																		- nur wenn Systemhöhe != Bauhöhe
+	_SbaABXY								:		Sba-Maß in abxy mm																		- nur bei Abweichung von Sba-Regelmaß
+
+== Zwischenstützpunkte der Nachspannung ==
+
+	_Bogen_Nsp3a/b/e/f_						:		hochgezogener Ausleger der 3-feldrigen Nachspannung in der Geraden/im Bogen

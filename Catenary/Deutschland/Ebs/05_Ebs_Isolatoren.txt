@@ -1,0 +1,59 @@
+﻿/* Kurzanleitung für Ebs-Oberleitungen: Isolatoren */ Stand: 14.11.2019
+Ergänzende Hinweise: http://zusiwiki.echoray.de/wiki/Errichtung_von_Ebs-Oberleitungsanlagen#Isolatoren
+
+Hinweis: Diese Textdatei ist für die Ansicht in Notepad++ optimiert.
+
+Ausgabe: 14.11.2019
+
+	Kürzel									:		Bezeichnung/Verwendung																		- Anmerkungen
+
+= Isolatoren =								Verzeichnis: Ebs\Isolatoren
+
+* Anzahl und Werkstoff
+
+	Stabisolator/en_						:		Stabisolator/en
+	Mehrgliedisolator_						:		Mehrgliedisolator
+
+  Verbundisolatoren
+
+	Rodurflex-Isolator/en_					:		Rodurflex-Isolator/en
+	Siemens-Isolator/en_					:		Siemens-Isolator/en
+	Tyco-Isolator/en_						:		Tyco-Isolator/en
+
+* Ausgabe
+
+	Stabisolatoren
+	
+	_1958_									:		Stabisolator Bauart 1958																	- mit grünem Anstrich
+	_1998_									:		Stabisolator Bauart 1998																	- ohne Anstrich
+	_2006_									:		Stabisolator Bauart 2006																	- ohne Anstrich
+	
+	Mehrgliedisolatoren
+	
+	_1967_									:		Mehrgliedisolator Bauart 1967																- mit grünem Anstrich
+
+* Regelbauart
+
+	_Re250_									:		Isolator für Re 250, Re 330
+	Kürzel entfällt							:		Isolator für Re 75, Re 100, Re 160, Re 200, Re 200 mod
+
+* verlängerter Kriechweg
+
+	_vK_									:		Stab-/Mehrgliedisolator mit verlängertem Kriechweg
+	Kürzel entfällt							:		Stab-/Mehrgliedisolator mit normalem Kriechweg
+
+* Stabisolatoren: vergrößerte Endschirme
+
+	_vE_									:		Stabisolator mit vergrößerten Endschirmen
+	Kürzel entfällt							:		Stabisolator mit normalen Endschirmen
+
+* Erweiterungsbauteile
+
+  einzelne Isolatoren
+
+	_Ekl									: 		1 Isolator mit Keil-Endklemmen																- Zwischenisolation in Richtseilen, Kettenwerken
+	_Vbl									:		1 Isolator mit Verbindungslasche und Keil-Endklemme											- feste isolierte Endverankerung, feste Verankerung von Richtseilen
+	
+  mehrere Isolatoren
+	
+	_Vbl									:		2 Isolatoren mit Verbindungslasche und Keil-Endklemmen										- doppelte Zwischenisolation in Kettenwerken

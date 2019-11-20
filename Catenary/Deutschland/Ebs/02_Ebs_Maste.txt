@@ -1,0 +1,119 @@
+﻿/* Kurzanleitung für Ebs-Oberleitungen: Maste, Hängesäulen und Befestigungsteile */ Stand: 14.11.2019
+Ergänzende Hinweise: http://zusiwiki.echoray.de/wiki/Errichtung_von_Ebs-Oberleitungsanlagen
+
+Hinweis: Diese Textdatei ist für die Ansicht in Notepad++ optimiert.
+
+Ausgabe: 14.11.2019
+
+	Kürzel									:		Bezeichnung/Verwendung																		- Anmerkungen
+
+= Maste =									Verzeichnis: Ebs\Maste
+
+	Übersicht:								http://zusiwiki.echoray.de/wiki/Abmessungen_von_Ebs-Oberleitungsanlagen
+	Verwendung:								http://zusiwiki.echoray.de/wiki/Errichtung_von_Ebs-Oberleitungsanlagen#Maste
+
+* Abspannmast für Containerbahnhöfe
+
+	Abspannmast_							:		Abspannmast für Containerbahnhöfe
+	
+  Einzelausleger
+	
+	_Ea_									:		Einzelausleger für Fahrdrahtabspannung mit Isolator
+	
+	_links_									:		Einzelausleger links vom Mast
+	_rechts_								:		Einzelausleger rechts vom Mast
+	
+  Doppelausleger
+	
+	_Da_									:		Doppelausleger für Fahrdrahtabspannung mit Isolator
+	
+  Abmessungen
+	
+	_ABmXY									:		Einzelausleger: Abstand zwischen Anbaupunkt für Ausleger und Gleismitte
+													Doppelausleger: Gleisabstand
+
+  Isolatoren
+
+	Präfix									:		Abspannmast_
+	
+    weitere Kürzel siehe 04_Ebs_Isolatoren.txt
+
+* Aufsetz-Rahmenflachmaste
+
+	Aufsetz-Rahmenflachmast_				:		Aufsetz-Rahmenflachmast mit U-Profil
+
+	_Uab0_									:		U-Profil im Format AB0
+
+* Aufsetz-IPB-Maste
+
+	Aufsetz-IPB-Mast_						:		Aufsetz-IPB-Mast mit geschweißtem Mastfuß
+	Aufsetz-IPB-Mast_Stumpf_				:		Aufsetz-IPB-Mast stumpf auf Fußplatte geschweißt
+	
+	_Versetzt_								:		Mastfuß seitlich versetzt
+	
+	_IPBab0_								:		IPB-Profil im Format AB0
+	
+* Aufsetz-IPB-Maste (Mastfuß 600x800)
+	
+	Aufsetz-IPB-Mast_600x800_				:		Aufsetz-IPB-Mast (Mastfuß 600x800)
+	Aufsetz-Doppel-IPB-Mast_				:		Aufsetz-Doppel-IPB-Mast (Mastfuß 600x800)
+	
+	_IPBab0_								:		IPB-Profil(e) im Format AB0
+
+* Abmessungen
+
+	_ABmXY									:		Höhe über Fundament in ab,xy m
+	
+= Hängesäulen =								Verzeichnis: Ebs\Haengesaeulen
+
+	Haengesaeule_							:		Hängesäule
+
+* Verwendung
+
+	_Ta_									:		Hängesäule mit zylindrischem Profil für Tunnel Bauart a										- mit Stütztenplatte und Winkeln
+	_Tb_									:		Hängesäule mit zylindrischem Profil für Tunnel Bauart b										- mit Stützenplatte, ohne Winkel
+	_Tc_									:		Hängesäule mit zylindrischem Profil für Tunnel Bauart c										- ohne Stützenplatte, ohne Winkel
+
+* Werkstoff
+
+	_Alu_									:		Hängesäule aus Aluminium
+	_Sta_									:		Hängesäule aus Stahl mit grünem Anstrich
+
+* Abmessungen
+
+	_DABC									:		Durchmesser in ABC mm
+	_ABmXY									:		Länge in ab,xy m
+
+= Befestigungsteile =
+
+	Befestigungsteile befinden sich in einem Unterordner im Verzeichnis der entsprechenden Maste.
+	(z.B. Ebs\Maste\Aufsetz-IPB-Maste\Befestigungsteile)
+
+* Auslegerhalterungen
+
+	Eah_									:		Einzelauslegerhalterung
+	Mah_									:		Mehrauslegerhalterung/Traverse
+
+* Mastbauform
+
+  ohne Angabe des Profils
+
+	_U_										:		Befestigungsteile für Aufsetz-Rahmenflachmaste
+	_IPB_									:		Befestigungsteile für Aufsetz-IPB-Maste
+	_IPB_600x800_							:		Befestigungsteile für Aufsetz-IPB-Maste (Mastfuß 600x800)
+	_HE_									:		Befestigungsteile für Stahl-Sondermaste Typ HE
+	
+  mit Angabe des Profils
+	
+	_IPBab0									:		Befestigungsteile für Aufsetz-IPB-Maste mit IPB-Profil im Format AB0
+	_IPBab0_600x800_						:		Befestigungsteile für Aufsetz-IPB-Mast (Mastfuß 600x800) mit IPB-Profilen im Format AB0
+
+* Profile der Befestigungsteile
+
+	_Uab_									:		Befestigungsteil mit UNP-Profil im Format AB0
+	_Hxy_									:		Befestigungsteil mit H-Profil im Format AB0														- Hohlprofilrohr
+
+* Abmessungen
+
+	_BHab									:		Bauhöhe in A,B m
+	_SbaABXY								:		Sba-Maß in abxy mm

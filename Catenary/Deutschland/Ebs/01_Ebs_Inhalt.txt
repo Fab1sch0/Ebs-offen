@@ -1,0 +1,31 @@
+﻿/* Kurzanleitung für Ebs-Oberleitungen: Verzeichnisstruktur und Inhaltsverzeichnis */ Stand: 14.11.2019
+Ergänzende Hinweise: http://zusiwiki.echoray.de/wiki/Errichtung_von_Ebs-Oberleitungsanlagen
+
+Hinweis: Diese Textdatei ist für die Ansicht in Notepad++ optimiert.
+	
+Ausgabe: 14.11.2019
+	
+= Inhaltsverzeichnis =
+
+	- 01_Ebs_Inhalt							:		Inhaltsverzeichnis und Verzeichnisstruktur
+	- 02_Ebs_Maste							:		Maste, Hängesäulen und Befestigungsteile
+	- 03_Ebs_Stuetzpunkte					:		Oberleitungs-Einzelstützpunkte, Einzelstützpunkte mit niedriger Systemhöhe, Zwischenstützpunkte der Nachspannung
+	- 05_Ebs_Isolatoren						:		Isolatoren
+	
+= Verzeichnisstruktur =
+
+	- Hängesäulen												Ebs\Haengesaeulen
+		- Tunnel													Ebs\Haengesaeulen\Tunnel
+	- Isolatoren												Ebs\Isolatoren
+		- Mehrgliedisolatoren										Ebs\Isolatoren\Mehrgliedisolatoren
+		- Stabisolatoren											Ebs\Isolatoren\Stabisolatoren
+		- Verbundisolatoren											Ebs\Isolatoren\Verbundisolatoren
+	- Maste														Ebs\Maste
+		- Aufsetz-IPB-Maste mit geschweißtem Mastfuß				Ebs\Maste\Aufsetz-IPB-Maste
+		- Aufsetz-IPB-Maste (Mastfuß 600x800)						Ebs\Maste\Aufsetz-IPB-Maste_600x800
+		- Aufsetz-Rahmenflachmaste									Ebs\Maste\Aufsetz-Rahmenflachmaste
+		- Stahl-Sondermaste											Ebs\Maste\Stahl-Sondermaste
+	- Re 100													Ebs\Re100
+	- Re 200													Ebs\Re200
+	- Re 250													Ebs\Re250
+	- Re 330													Ebs\Re330
